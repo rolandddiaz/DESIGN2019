@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head itemscope itemtype="http://schema.org/WebSite">
 	[%load_template file:'headers/includes/head.template.html'/%]
 	<link rel="preload" href="[%ntheme_asset%]css/app.css[%/ntheme_asset%]" as="style">
@@ -8,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="[%ntheme_asset%]css/style.css[%/ntheme_asset%]" media="all"/>
 	<link href="https://fonts.googleapis.com/css?family=Oswald:400" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-
+    
 
 <!-- Global site tag (gtag.js) - Google Ads: 936039227 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-936039227"></script>
@@ -121,161 +123,179 @@
 
 <body id="n_[@config:current_page_type@]" class="n_[@CONFIG:TEMPLATELANG@]">
 <a href="#main-content" class="sr-only sr-only-focusable">Skip to main content</a>
-<header class="container wrapper-header py-3" aria-label="Header container" style="background-color: rgb(0, 111, 245); border-radius: 3px; padding-bottom: -5px; margin-bottom: -10px;" >
+<header class="container py-3" aria-label="Header container" style="background-color: rgb(0, 111, 245); border-radius: 3px; padding-bottom: -5px; margin-bottom: -10px;" >
 
 <div class="row">
-		<div class="col-xs-12 col-sm-3 d-none d-md-block">
+		
+<div class="col-xs-12 col-sm-3 d-none d-md-block">
 		<p style="color: white; text-align: left; font-family: 'Oswald', sans-serif;"><span data-feather="mail" style="top:5px; left: 5px; position: relative; width: 20px; height: 20px;"></span>&nbsp;&nbsp;[@config:company_email@]</p>
-		</div>
-		<div class="col-xs-12 col-sm-2 d-none d-md-block">
+</div>
+
+<div class="col-xs-12 col-sm-2 d-none d-md-block">
 		<p style="color: white; text-align: left; font-family: 'Oswald', sans-serif;"><span data-feather="phone" style="top:5px; left: 5px; position: relative; width: 20px; height: 20px;"></span>&nbsp;&nbsp;[@config:company_phone@]</p>
-		</div>
-		<!--<div class="col-xs-12 col-sm-1 d-none d-md-block">
-	<p style="text-align: right;"><a href="http://www.chainsawspares.com.au/contact-us" target="_blank"><img alt="" src="/assets/images/envelope.png" style="width: 16px; height: 16px;" /></a><a href="https://www.facebook.com/pages/Jono-Johno-Chainsaw-Spares-Tools/228677303812065?ref=stream&hc_location=timeline" target="_blank"><img alt="" src="/assets/images/facebook.png" style="width: 16px; height: 16px; margin-left: 5px; margin-right: 5px;" /></a><a href="https://twitter.com/Jono_Johno" target="_blank"><img alt="" src="/assets/images/twitter.png" style="width: 16px; height: 16px;" /></a><a href="https://plus.google.com/u/0/b/110760127481423766198/%20JonoandJohnoAlfredton/posts" target="_blank"><img alt="" src="/assets/images/google_plus.png" style="width: 16px; height: 16px; margin-left: 5px; margin-right: 5px;" /></a><a href="https://www.youtube.com/user/jonojohno20004" target="_blank"><img alt="" src="/assets/images/youtube.png" style="width: 16px; height: 16px;" /></a></p>
-		</div> -->
-		<div class="col-xs-12 col-sm-2 d-none d-md-block">
+</div>	
+
+<div class="col-xs-12 col-sm-2 d-none d-md-block">
 		<p style="color: white; text-align: right; font-family: 'Oswald', sans-serif;"><a href="https://www.chainsawspares.com.au/_myacct/#orders"><span style="color:#F0FFF0;"><span data-feather="compass" style="top:5px; left: 5px; position: relative; width: 20px; height: 20px;"></span>&nbsp;&nbsp;Track My Orders</span></a></p>
-		</div>
-		<div class="col-xs-12 col-sm-3 d-none d-md-block"><p style="text-align: right;"><a href="http://www.chainsawspares.com.au/page/chainsaw-guide/"><span style="color: white; text-align: left; font-family: 'Oswald', sans-serif;"><span data-feather="info" style="top:5px; left: 5px; position: relative; width: 20px; height: 20px;"></span>&nbsp;&nbsp;&nbsp;Guide</span></a><span style="color:#FFFFE0;"></span><a href="http://www.chainsawspares.com.au/page/how-to-videos/chainsaw-chain-sharpening/"><span style="color: white; text-align: left; font-family: 'Oswald', sans-serif;"><span data-feather="video" style="top:5px; left: 5px; position: relative; width: 20px; height: 20px;"></span>&nbsp;&nbsp;&nbsp;Videos</span></a><span style="color:#FFFFE0;"></span><a href="http://www.chainsawspares.com.au/contact-us/"><span style="color: white; text-align: left;"><span data-feather="phone-call" style="top:5px; left: 5px; position: relative; width: 20px; height: 20px;"></span>&nbsp;&nbsp;Contact</span></a><span style="color:#FFFFE0;"></a></p></div>
-		<div class="col-xs-12 col-sm-2 d-none d-md-block"><p style="text-align: right;"><a href="https://www.chainsawspares.com.au/_myacct/login"><span style="color: white; text-align: left; font-family: 'Oswald', sans-serif;"><span data-feather="log-in" style="top:5px; left: 5px; position: relative; width: 20px; height: 20px;"></span>&nbsp;&nbsp;Login</span></a><span style="color:#FFFFE0;"></span><a href="https://www.chainsawspares.com.au/_myacct/register"><span style="color: white; text-align: left; font-family: 'Oswald', sans-serif;"><span data-feather="at-sign" style="top:5px; left: 5px; position: relative; width: 20px; height: 20px;"></span>&nbsp;&nbsp;Register</span></a></p>
-		</div>
-	</div>
+</div>
+
+<div class="col-xs-12 col-sm-3 d-none d-md-block"> 
+<p style="text-align: right;">
+
+<a href="http://www.chainsawspares.com.au/page/chainsaw-guide/">
+<span style="color: white; text-align: left; font-family: 'Oswald', sans-serif;">
+<span data-feather="info" style="top:5px; left: 5px; position: relative; width: 20px; height: 20px;">
+</span>&nbsp;&nbsp;&nbsp;Guide</span>
+</a>
+
+<span style="color:#FFFFE0;"></span>
+<a href="http://www.chainsawspares.com.au/page/how-to-videos/chainsaw-chain-sharpening/">
+<span style="color: white; text-align: left; font-family: 'Oswald', sans-serif;">
+<span data-feather="video" style="top:5px; left: 5px; position: relative; width: 20px; height: 20px;"></span>&nbsp;&nbsp;&nbsp;Videos</span>
+</a>
+
+<span style="color:#FFFFE0;"></span>
+<a href="http://www.chainsawspares.com.au/contact-us/">
+<span style="color: white; text-align: left;"><span data-feather="phone-call" style="top:5px; left: 5px; position: relative; width: 20px; height: 20px;"></span>&nbsp;&nbsp;Contact</span>
+</a>
+</p>
+</div>
+
+<div class="col-xs-12 col-sm-2 d-none d-md-block"><p style="text-align: right;"><a href="https://www.chainsawspares.com.au/_myacct/login"><span style="color: white; text-align: left; font-family: 'Oswald', sans-serif;"><span data-feather="log-in" style="top:5px; left: 5px; position: relative; width: 20px; height: 20px;"></span>&nbsp;&nbsp;Login</span></a><span style="color:#FFFFE0;"></span><a href="https://www.chainsawspares.com.au/_myacct/register"><span style="color: white; text-align: left; font-family: 'Oswald', sans-serif;"><span data-feather="at-sign" style="top:5px; left: 5px; position: relative; width: 20px; height: 20px;"></span>&nbsp;&nbsp;Register</span></a></p>
+</div>
+
+</div>
 
 
+<div class="row pb-2 align-items-center">
+<div class="col-7 col-sm-4 wrapper-logo text-sm-left">
+<a href="[@config:homeurl@]" title="[@config:company_name@]"><img class="logo" src="[@config:imageurl@]/website_logo.png?[@config:neto_css_version@]" alt="[@config:company_name@] logo"/></a>
+</div>
+<div class="col-5 col-sm-8 d-block d-md-none text-right">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMainMenu" aria-controls="navbarMainMenu" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+</button>
+<a class="navbar-toggler d-sm-inline-block d-md-none" href="[%url page:'checkout' type:'cart'/%]" aria-label="Shopping cart"><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i><span class="badge badge-pill badge-secondary" rel="a2c_item_count">[%format type:'number' dp:'0'%][%CART id:'total_items'%][%/CART%][%/format%]</span></a>
+</div>
+		
+<div class="d-none d-md-block col-12 col-sm-8 col-md-4 col-lg-4">
+<div class="header-search pt-2 pt-md-0">
 
+<form name="productsearch" method="get" action="/" role="search" aria-label="Product search">
+<input type="hidden" name="rf" value="kw"/>
+<div class="input-group">
+<input class="form-control ajax_search" value="[%nohtml%][%filter ID:'keywords'%][%/filter%][%/nohtml%]" id="name_search" autocomplete="off" name="kw" type="search" aria-label="Input search"/>
+<div class="input-group-append">
+<button type="submit" value="Search" class="btn btn-outline-secondary" aria-label="Search site"><i class="fa fa-search" aria-hidden="true"></i>
+</button>
+</div>
+</div>
+</form>
 
-	<div class="row pb-2 align-items-center">
-		<div class="col-7 col-sm-4 wrapper-logo text-sm-left">
-			<a href="[@config:homeurl@]" title="[@config:company_name@]">
-				<img class="logo" src="[@config:imageurl@]/website_logo.png?[@config:neto_css_version@]" alt="[@config:company_name@] logo"/>
-			</a>
-		</div>
-		<div class="col-5 col-sm-8 d-block d-md-none text-right">
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMainMenu" aria-controls="navbarMainMenu" aria-expanded="false" aria-label="Toggle navigation">
-				<i class="fa fa-bars fa-lg" aria-hidden="true"></i>
-			</button>
-			<a class="navbar-toggler d-sm-inline-block d-md-none" href="[%url page:'checkout' type:'cart'/%]" aria-label="Shopping cart">
-				<i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>
-				<span class="badge badge-pill badge-secondary" rel="a2c_item_count">[%format type:'number' dp:'0'%][%CART id:'total_items'%][%/CART%][%/format%]</span>
-			</a>
-		</div>
-		<div class="d-none d-md-block col-12 col-sm-8 col-md-4 col-lg-4">
-			<div class="header-search pt-2 pt-md-0">
-				<form name="productsearch" method="get" action="/" role="search" aria-label="Product search">
-					<input type="hidden" name="rf" value="kw"/>
-					<div class="input-group">
-						<input class="form-control ajax_search" value="[%nohtml%][%filter ID:'keywords'%][%/filter%][%/nohtml%]" id="name_search" autocomplete="off" name="kw" type="search" aria-label="Input search"/>
-						<div class="input-group-append">
-							<button type="submit" value="Search" class="btn btn-outline-secondary" aria-label="Search site"><i class="fa fa-search" aria-hidden="true"></i></button>
-						</div>
-					</div>
-				</form>
-			</div>
-		</div>
-		<div class="d-none d-md-block col-md-4 col-lg-4 text-right">
-			<div id="header-cart" class="btn-group" role="group">
-				<a href="[%url page:'checkout' type:'cart'/%]" class="btn btn-outline-secondary" id="cartcontentsheader">
-					<i class="fa fa-shopping-cart" aria-hidden="true"></i> <span class="d-none d-lg-inline">Shopping Cart</span> - <span rel="a2c_item_count">[%format type:'number' dp:'0'%][%CART id:'total_items'%][%/CART%][%/format%]</span> Items
-				</a>
-				<button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Shopping cart dropdown">
-					<span class="sr-only">Toggle Dropdown</span>
-				</button>
-				<ul class="dropdown-menu dropdown-menu-right float-right">
-					<li class="box" id="neto-dropdown">
-						<div class="body" id="cartcontents"></div>
-						<div class="footer"></div>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div>
+</div>
+</div>
 
+<div class="d-none d-md-block col-md-4 col-lg-4 text-right">
+<div id="header-cart" class="btn-group" role="group">
+<a href="[%url page:'checkout' type:'cart'/%]" class="btn btn-outline-secondary" id="cartcontentsheader" style="background-color: gray;">
+<i class="fa fa-shopping-cart" aria-hidden="true"></i> <span class="d-none d-lg-inline" >Shopping Cart</span> - <span rel="a2c_item_count">[%format type:'number' dp:'0'%][%CART id:'total_items'%][%/CART%][%/format%]</span> Items
+</a>
+<button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Shopping cart dropdown"><span class="sr-only">Toggle Dropdown</span>
+</button>
+<ul class="dropdown-menu dropdown-menu-right float-right">
+<li class="box" id="neto-dropdown"><div class="body" id="cartcontents"></div>
+<div class="footer">
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
 
 </header>
 
 
 <div class="container" style="background-color: black; border-radius: 3px; padding-bottom: 0px;">
-	<div class="row">
-		<div class="col-md-12">
-				<nav class="navbar navbar-expand-md navbar-light bg-light mt-0 mt-md-2">
-	  <div class="collapse navbar-collapse" id="navbarMainMenu" style="background-color: black; color: white; font-family: 'Oswald', sans-serif;">
-			<form class="d-block d-md-none" name="productsearch" method="get" action="/" role="search" aria-label="Product search">
-				<input type="hidden" name="rf" value="kw"/>
-				<div class="input-group">
-					<input class="form-control ajax_search" value="[%nohtml%][%filter ID:'keywords'%][%/filter%][%/nohtml%]" id="name_search-xs" autocomplete="off" name="kw" type="search" aria-label="Input search"/>
-					<div class="input-group-append">
-						<button type="submit" value="Search" class="btn btn-outline-secondary" aria-label="Search site"><i class="fa fa-search" aria-hidden="true"></i></button>
-					</div>
-				</div>
-			</form>
+<div class="row">
+<div class="col-md-12">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+
+<div class="collapse navbar-collapse" id="navbarMainMenu" style="background-color: black; color: white; font-family: 'Oswald', sans-serif;">
+<form class="d-block d-md-none" name="productsearch" method="get" action="/" role="search" aria-label="Product search"><input type="hidden" name="rf" value="kw"/>
+<div class="input-group">
+<input class="form-control ajax_search" value="[%nohtml%][%filter ID:'keywords'%][%/filter%][%/nohtml%]" id="name_search-xs" autocomplete="off" name="kw" type="search" aria-label="Input search"/>
+<div class="input-group-append"><button type="submit" value="Search" class="btn btn-outline-secondary" aria-label="Search site"><i class="fa fa-search" aria-hidden="true"></i></button>
+</div>
+</div>
+</form>
 	    
-	    <ul class="navbar-nav mr-auto" role="navigation" aria-label="Main menu">
-			[%cache type:'menu' id:'header-content-menu'%]
-				[%menu id:'web_header'%]
-					[%param *level_1%]
-						<li class="nav-item [%if [@next_level@]%] dropdown [%/if%] [%if [@css_class@]%] [@css_class@][%/if%]">
-							<a href="[@url@]" class="nav-link [%if [@next_level@]%] dropdown-toggle[%/if%]" [%if [@next_level@]%]role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"[%/if%] style="color: white;">[@name@]</a>
-							[%if [@next_level@]%]
-								<ul class="dropdown-menu">
-									[@next_level@]
-								</ul>
-							[%/if%]
-						</li>
-						[%/param%]
-					[%param *level_2%]
-						<li class="[%if [@next_level@]%] dropdown dropdown-hover [%/if%] [%if [@css_class@]%] [@css_class@][%/if%]"> <a href="[@url@]" class="nuhover dropdown-item"><span data-feather="arrow-right-circle" style="top:5px; left: 5px; position: relative; "></span>&nbsp;&nbsp;[@name@]</a>
-							[%if [@next_level@]%]
-								<ul class="dropdown-menu dropdown-menu-horizontal">
-									[@next_level@]
-								</ul>
-							[%/if%]
-						</li>
-						[%/param%]
-					[%param *level_3%]
-						<li class="[%if [@css_class@]%] [@css_class@][%/if%]">
-							<a class="dropdown-item" href="[@url@]"><span data-feather="arrow-right-circle" style="top:5px; left: 5px; position: relative; "></span>&nbsp;&nbsp;[@name@]</a>
-						</li>
-					[%/param%]
-				[%/menu%]
-			[%/ cache%]
-		</ul>
+<ul class="navbar-nav mr-auto" role="navigation" aria-label="Main menu">
+[%cache type:'menu' id:'header-content-menu'%]
+[%menu id:'web_header'%]
+[%param *level_1%]
+<li class="nav-item [%if [@next_level@]%] dropdown [%/if%] [%if [@css_class@]%] [@css_class@][%/if%]">
+<a href="[@url@]" class="nav-link [%if [@next_level@]%] dropdown-toggle[%/if%]" [%if [@next_level@]%]role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"[%/if%] style="color: white;">[@name@]</a>
+[%if [@next_level@]%]
+<ul class="dropdown-menu">
+[@next_level@]
+</ul>
+[%/if%]
+</li>
+[%/param%]
+[%param *level_2%]
+<li class="[%if [@next_level@]%] dropdown dropdown-hover [%/if%] [%if [@css_class@]%] [@css_class@][%/if%]"> <a href="[@url@]" class="nuhover dropdown-item"><span data-feather="chevron-right" style="top:5px; left: 5px; position: relative; "></span>&nbsp;&nbsp;[@name@]</a>
+[%if [@next_level@]%]
+<ul class="dropdown-menu dropdown-menu-horizontal">
+[@next_level@]
+</ul>
+[%/if%]
+</li>
+[%/param%]
+[%param *level_3%]
+<li class="[%if [@css_class@]%] [@css_class@][%/if%]">
+<a class="dropdown-item" href="[@url@]"><span data-feather="chevron-right-right" style="top:5px; left: 5px; position: relative; "></span>&nbsp;&nbsp;[@name@]</a></li>[%/param%][%/menu%][%/ cache%]
+</ul>
+
 
 <ul class="navbar-nav navbar-right" role="navigation" aria-label="Accounts menu">
-			<li class="nav-item dropdown">
-				<a href="[%url page:'account'/%]" role="button" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Account dropdown"> <class="visible-lg visible-inline-lg" style="color: white;"><span data-feather="user" style="top:5px; left: 5px; position: relative; "></span>&nbsp;&nbsp;My Account</a>
-				<ul class="dropdown-menu dropdown-menu-right" >
-					<li><a class="dropdown-item" href="[%url page:'account'/%]">Account Home</a></li>
-					<li><a class="dropdown-item" href="[%url page:'account'/%]#orders">Orders</a></li>
-					[%if [@config:allow_user_quote@]%]
-					<li><a class="dropdown-item" href="[%url page:'account'/%]#quotes">Quotes</a></li>
-					[%/ if%]
-					<li><a class="dropdown-item" href="[%url page:'account' type:'payrec'/%]">Pay Invoices</a></li>
-					<li><a class="dropdown-item" href="[%url page:'account' type:'favourites'/%]">Reorder</a></li>
-					[%if [@config:show_wishlist@]%]
-					<li><a class="dropdown-item" href="[%url page:'account' type:'wishlist'/%]">Wishlists</a></li>
-					[%/if%]
-					<li><a class="dropdown-item" href="[%url page:'account' type:'warranty'/%]">Resolution Centre</a></li>
-					<li><a class="dropdown-item" href="[%url page:'account' type:'edit_account'/%]">Edit My Details</a></li>
-					<li><a class="dropdown-item" href="[%url page:'account' type:'edit_address'/%]">Edit My Address Book</a></li>
-					<li class="divider"><div class="dropdown-divider"></div></li>
-					[%if [@user:username@]%]
-						<li> <a class="dropdown-item" href="[%url page:'account' type:'edit_pwd'/%]"><i class="fa fa-lock"></i> Change My Password</a> </li>
-						<li> <a class="dropdown-item" href="[%url page:'account' type:'logout'/%]"><i class="fa fa-power-off"></i> Log Out</a> </li>
-					[%else%]
-						<li> <a class="dropdown-item" href="[%url page:'account' type:'login'/%]" title="Login">Login</a> </li>
-						<li> <a class="dropdown-item" href="[%url page:'account' type:'register'/%]" title="Register">Register</a> </li>
-					[%/if%]
-				</ul>
-			</li>
-		</ul> 
-	  </div>
-	</nav>
-		</div>
-	</div>
+<li class="nav-item dropdown">
+<a href="[%url page:'account'/%]" role="button" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Account dropdown" style="color: white; margin-top: 0px;">MY ACCOUNT</a>
+<ul class="dropdown-menu dropdown-menu-right" >
+<li><a class="dropdown-item" href="[%url page:'account'/%]">Account Home</a></li>
+<li><a class="dropdown-item" href="[%url page:'account'/%]#orders">Orders</a></li>
+[%if [@config:allow_user_quote@]%]
+<li><a class="dropdown-item" href="[%url page:'account'/%]#quotes">Quotes</a></li>
+[%/ if%]
+<li><a class="dropdown-item" href="[%url page:'account' type:'payrec'/%]">Pay Invoices</a></li>
+<li><a class="dropdown-item" href="[%url page:'account' type:'favourites'/%]">Reorder</a></li>
+[%if [@config:show_wishlist@]%]
+<li><a class="dropdown-item" href="[%url page:'account' type:'wishlist'/%]">Wishlists</a></li>
+[%/if%]
+<li><a class="dropdown-item" href="[%url page:'account' type:'warranty'/%]">Resolution Centre</a></li>
+<li><a class="dropdown-item" href="[%url page:'account' type:'edit_account'/%]">Edit My Details</a></li>
+<li><a class="dropdown-item" href="[%url page:'account' type:'edit_address'/%]">Edit My Address Book</a></li>
+<li class="divider"><div class="dropdown-divider"></div></li>
+[%if [@user:username@]%]
+<li> <a class="dropdown-item" href="[%url page:'account' type:'edit_pwd'/%]"><i class="fa fa-lock"></i> Change My Password</a> </li>
+<li> <a class="dropdown-item" href="[%url page:'account' type:'logout'/%]"><i class="fa fa-power-off"></i> Log Out</a> </li>
+[%else%]
+<li> <a class="dropdown-item" href="[%url page:'account' type:'login'/%]" title="Login">Login</a> </li>
+<li> <a class="dropdown-item" href="[%url page:'account' type:'register'/%]" title="Register">Register</a> </li>
+[%/if%]
+</ul>
+</li>
+</ul> 
+
+
+</div>
+
+</nav>
+
+</div>
+</div>
 </div>
 
 
-
-
-<div id="main-content" class="container .d-none .d-sm-block hidden-xs hidden-sm" role="main" style="border-color: #efefef; border-style: solid; border-radius: 1px;">
-	<div class="row">
+<div id="main-content" class="container .d-none .d-sm-block hidden-xs hidden-sm" role="main">
+<div class="row">
